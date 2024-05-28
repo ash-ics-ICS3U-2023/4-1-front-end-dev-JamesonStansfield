@@ -3,9 +3,57 @@
 #FFF4E3 -Beige
 */
 
-*{
-    
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
+
 body {
     background-color: #FFF4E3;
+    font-family: monospace;
+}
+
+
+/*Header Stuff*/
+
+header {
+    background-color: #74A534;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+header img{
+    margin-right: 1400px;
+}
+
+.Header-Array {
+    justify-content: center;
+    display: flex;
+    flex-grow: 1;
+}
+
+.tab {
+    margin-left: 0 10px;
+}
+
+.tab a {
+    color: #46661c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tab a:hover {
+    color: #88bc43;
 }
