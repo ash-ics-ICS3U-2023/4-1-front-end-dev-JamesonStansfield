@@ -60,3 +60,28 @@ nav li {
     margin: 0 30px;
     padding-top: 45px;
 }
+
+/*
+    Home
+*/
+
+h1 {
+    padding: 10px;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 75px;
+    
+}
+
+.top-home {
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+    padding-top: 45px;
+}
+
+
+
+/*
+    Location
+*/
