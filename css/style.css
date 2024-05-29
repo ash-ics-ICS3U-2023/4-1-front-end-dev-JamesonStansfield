@@ -114,3 +114,7 @@ button:hover {
     display: flex;
     border-radius: 5px;
 }
+
+.item-box p {
+    font-size: 18px;
+}
