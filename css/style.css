@@ -80,8 +80,37 @@ h1 {
     padding-top: 45px;
 }
 
+button {
+    border-radius: 10px;
+    background-color: #74A534;
+    border: none;
+    font-size: 20px;
+    padding: 15px;
+    box-shadow: 5px 5px #2c3f14;
+    transition: 0.3s ease;
+    font-family: monospace;
+    margin-top: 300px;
+    margin-left: -600px;
+}
 
+button:hover {
+    box-shadow: none;
+    color: #defdb7;
+}
 
 /*
     Location
 */
+
+
+/*
+    Menu
+*/
+
+.item-box {
+    background-color: #dbd0c0;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    border-radius: 5px;
+}
